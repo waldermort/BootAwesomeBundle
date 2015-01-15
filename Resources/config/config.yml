@@ -1,0 +1,34 @@
+assetic:
+    assets:
+        jquery:
+            inputs: [ @WaldermortBootAwesomeBundle/Resources/public/js/jquery-1.11.2.js ]
+            output: js/jquery.js
+        bootstrap_css:
+            inputs: [ @WaldermortBootAwesomeBundle/Resources/public/less/bootstrap.less ]
+            filters: [ less, cssrewrite ]    
+            output: css/bootstrap.css
+        bootstrap_js:
+            inputs:
+                - @WaldermortBootAwesomeBundle/Resources/public/js/transition.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/alert.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/button.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/carousel.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/collapse.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/dropdown.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/modal.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/tooltip.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/popover.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/scrollspy.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/tab.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/affix.js  
+            output: js/bootstrap.js   
+        fontawesome_css:
+            inputs:
+                - @WaldermortBootAwesomeBundle/Resources/public/less/fontawesome.less
+            filters: [ less ]    
+            output: css/fontawesome.css
+        ie8fix_js:
+            inputs:
+                - @WaldermortBootAwesomeBundle/Resources/public/js/html5shiv.js
+                - @WaldermortBootAwesomeBundle/Resources/public/js/respond.min.js
+            output: js/ie8fix.js   

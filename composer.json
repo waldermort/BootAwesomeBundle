@@ -1,0 +1,30 @@
+{
+    "name" : "waldermort/fontawesomebundle",
+    "description" : "Integrates Bootstrap3 Fontawesome4 and jQuery",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Owen Parry",
+        "email" : "waldermort@gmail.com"
+    }],
+    "keywords" : [
+        "bootstrap3, fontawesome4, jquery"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Company\\DemoBundle" : ""
+        }
+    },
+    "target-dir" : "Waldermort/BootAwesomeBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
