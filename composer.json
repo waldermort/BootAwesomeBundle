@@ -1,5 +1,5 @@
 {
-    "name" : "waldermort/fontawesomebundle",
+    "name" : "waldermort/bootawesomebundle",
     "description" : "Integrates Bootstrap3 Fontawesome4 and jQuery",
     "type" : "symfony-bundle",
     "authors" : [{
